@@ -11,3 +11,5 @@ When to use Comparator
 2)Ideal when you don’t want to modify the model class to introduce sorting logic.
 
 3)Use Comparator with lambdas for a concise, inline sorting definition.
+
+
