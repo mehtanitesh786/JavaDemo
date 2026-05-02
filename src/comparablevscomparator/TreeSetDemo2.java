@@ -11,7 +11,14 @@ class TreeSetComparator2 implements Comparator{
         Integer i2=(Integer) o2;
 
         return -i1.compareTo(i2);
-    }
+       // return  i1.compareTo(i2); Accending Order
+       // return  i2.compareTo(i1); Decending Order
+       // return -i2.compareTo(i1); Accending Order
+        //return +1;Insertion Order
+        // return -1;reverse of insertion order
+        // return 0;only first element is inserted other all element are consider as duplicate
+
+     }
 }
 public class TreeSetDemo2 {
     public static void main(String[] args) {
