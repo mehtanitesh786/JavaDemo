@@ -1,0 +1,13 @@
+When to Use Comparable:
+
+1)Use comparable when there is a single ,default sorting order that makes sense for the class(e.g sorting employee by ID or names alphabatically)
+
+2)Good for models where the "natural order" is unlikely to change
+
+When to use Comparator
+
+1)Use Comparator when you need multiple sorting sequences for the same object (e.g., sorting products by price, name, or rating).
+
+2)Ideal when you don’t want to modify the model class to introduce sorting logic.
+
+3)Use Comparator with lambdas for a concise, inline sorting definition.
