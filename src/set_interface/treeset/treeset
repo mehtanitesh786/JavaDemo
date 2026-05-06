@@ -1,0 +1,20 @@
+TreeSet Quik notes
+
+1)TreeSet is a Class
+2)Part of java Collection framwork
+3)implements : NavigableSet,SortedSet,set
+4)Store ubique element only (no duplicates)
+5)Maintains sorted order(ascending by default)
+6)Use Red-Black Tree(self-balancing BST)
+7)Does not allow null
+8)performance: O(log n)
+9) Sorting
+     natural(comparable)
+     custom(comparator)
+10)Not thred-safe
+11) method
+first(), last()
+higher(), lower()
+headSet(), tailSet(), subSet()
+TreeSet does not allow heterogeneous data because it needs comparable elements for sorting.
+TreeSet = Unique + Sorted + No null + Log(n)
