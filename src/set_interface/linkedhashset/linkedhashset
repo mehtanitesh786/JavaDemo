@@ -1,0 +1,33 @@
+ LinkedHashSet
+
+ It is the child class of HashSet
+ Introduces  in 1.4 version
+
+ It is exactly same as HashSet except the following differences
+
+ HashSet
+ ==================
+ The underlying datastructure is HashTable
+
+ insertion order not preserved
+
+ introduces in 1.2
+ ===================
+ LinkedHashSet
+ ==================
+ the underlying datastructer is
+ hashtable + linked list
+
+ insertion order is preserved
+
+ introduced in 1.4 version
+
+======================================
+
+Note:
+
+LikedHashSet is the best choice to develop cache based application ,
+where duplicates are not allowed and insertion order must be preserved
+
+
+

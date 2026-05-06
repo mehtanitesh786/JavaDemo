@@ -18,3 +18,5 @@ higher(), lower()
 headSet(), tailSet(), subSet()
 TreeSet does not allow heterogeneous data because it needs comparable elements for sorting.
 TreeSet = Unique + Sorted + No null + Log(n)
+
+Use TreeSet
