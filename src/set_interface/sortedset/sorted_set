@@ -1,0 +1,66 @@
+                    SortedSet(I)
+
+1)It is the child interface of set
+
+2)if we want to represent a group of individual object according
+to some sorting order and duplicates are not allowed then we should
+go for sortedset
+
+
+Sorted Set Specific method
+===========================
+
+if below is ours set
+[100,101,103,104,107,110,115]
+
+below are the method define in sorted set
+
+first()==>100
+last()==>115
+headSet(104)==>[100,101,103]
+tailSet(104)==>[104,107,110,115]
+subSet(103,110)==>[103,104,107]
+comparator()===>
+
+Properties Of SortedSet Interface :
+
+1) SortedSet can not have null element .
+   if you try to insert null element ,
+   it gives NullpointerException run time
+
+2)As sortedset is  a set ,duplicate elements are not allowed
+
+3)SortedSet element are sorted according to supplied comparator.
+if you don't mention any comparator while creating a SortedSet,
+element will be placed in ascending order
+
+4)Inserted element must be of comparable type and they must be
+mutually comparable.
+
+5)You can retrive first element and last elements of sortedSet. you
+cant't access sortedSet elements randomly i.e Random access is denied
+
+6) Sortedset  returned by headSet(),tailSet() and subSet() are just view of
+the original set . So, changes in the returned set are reflected in the original set and vice versa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
